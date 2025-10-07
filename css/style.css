@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+footer {
+    text-align: center;
+    font-family: 'FooterFont';
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: 'FooterFont';
+    src: url("../fonts/Lokeya.ttf");
+}
