@@ -1,9 +1,31 @@
+h1 {
+    font-family: 'FooterFont';
+    text-align: center;
+    color: azure;
+}
+
 body {
-    background-color: aquamarine;
+    font-family: 'FooterFont';
+    background-color: rgb(27, 170, 99);
+    text-align: center;
+    color: azure;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0 1em;
+    padding: 0;
+}
+
+nav li a {
+    color: azure;
+    text-decoration: none;
 }
 
 footer {
     text-align: center;
+    font-size: large;
     font-family: 'FooterFont';
     position: fixed;
     width: 100%;
