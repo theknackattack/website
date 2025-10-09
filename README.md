@@ -1,9 +1,19 @@
 # Jonathan Kang's Website
 
 ### Home
-### About Me
-### Anime & Manga
-### Video Games
+<p>This is a stub section.</p>
+
+### About
+<p>This is a stub section.</p>
+
+
+### Anime
+<p>This is a stub section.</p>
+
+
+### Games
+<p>This is a stub section.</p>
+
 
 <p>
     This is a stub. Expansion is needed.
