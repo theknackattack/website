@@ -1,38 +1,77 @@
-h1 {
-    font-family: 'FooterFont';
-    text-align: center;
-    color: azure;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: darkslategray;
 }
 
-body {
-    font-family: 'FooterFont';
-    background-color: rgb(27, 170, 99);
-    text-align: center;
-    color: azure;
+/* The menu sidebar. */
+
+.container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+    position: relative;
 }
 
-nav li {
-    list-style: none;
-    display: inline;
-    margin: 0 1em;
+.menu {
+    width: 325px;
+    background-color: #244c3b;
+    padding: 20px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex: 0 0 325px;
+}
+
+.menu h1 {
+    font-family: Lokeya;
+    font-size: 44px;
+    text-align: center;
+    color: rgb(137, 237, 210);
+}
+
+.menu ul {
+    list-style-type: none;
     padding: 0;
 }
 
-nav li a {
-    color: azure;
-    text-decoration: none;
+.menu ul li {
+    margin: 15px 0;
 }
 
-footer {
+.menu ul li a {
+    color: rgb(137, 237, 210);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Lokeya;
+}
+
+.menu ul li a:hover {
+    color: rgb(18, 218, 48);
+}
+
+/* Main body of the content of the page. */
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background-color: darkslategrey;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: large;
-    font-family: 'FooterFont';
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    color: aliceblue;
+}
+
+.main p, .desc, .game {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: aliceblue;
 }
 
 @font-face {
-    font-family: 'FooterFont';
+    font-family: "Lokeya";
     src: url("../fonts/Lokeya.ttf");
 }
